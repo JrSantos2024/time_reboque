@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Time Assist | Transporte de Cargas Especiais e Pesadas</title>
+    <meta
+      name="description"
+      content="Transporte especializado em prancha baixa, linha amarela, transporte nautico e cargas indivisiveis no Nordeste."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800&family=Manrope:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-bg" aria-hidden="true"></div>
+
+    <header class="topbar">
+      <a class="brand" href="#inicio" aria-label="Voltar ao inicio">
+        <img src="img/logo.png" alt="Logo Time Assist" />
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menu">
+        Menu
+      </button>
+
+      <nav id="menu" class="menu" aria-label="Navegacao principal">
+        <a href="#segmentos">Segmentos</a>
+        <a href="#frota">Frota</a>
+        <a href="#diferencial">Diferenciais</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Transporte de Cargas Especiais e Pesadas</p>
+          <h1>Movemos o que quase ninguem quer assumir.</h1>
+          <p>
+            Operacao tecnica para linha amarela, plataformas elevatorias, transporte nautico e cargas
+            indivisiveis com atendimento 24h.
+          </p>
+
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="https://wa.me/5581998480023" target="_blank" rel="noopener noreferrer">
+              Solicitar cotacao
+            </a>
+            <a class="btn btn-ghost" href="#rotas">Ver rotas estrategicas</a>
+          </div>
+        </div>
+
+        <div class="hero-media reveal">
+          <img src="img/time2.jpeg" alt="Caminhao Time Assist em operacao" />
+          <div class="stats">
+            <div>
+              <strong data-counter="24">0</strong>
+              <span>horas de disponibilidade</span>
+            </div>
+            <div>
+              <strong data-counter="6">0</strong>
+              <span>frentes de atuacao</span>
+            </div>
+            <div>
+              <strong data-counter="100">0</strong>
+              <span>foco em carga tecnica</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="positioning reveal">
+        <h2>Posicionamento</h2>
+        <p>
+          Atendemos empresas e clientes que precisam de transporte tecnico com seguranca operacional e
+          previsibilidade de entrega.
+        </p>
+        <ul>
+          <li>Setor nautico: lanchas, iates, barcos e jetski</li>
+          <li>Construcao civil e terraplanagem</li>
+          <li>Locadoras de maquinas e plataformas</li>
+          <li>Industrias com cargas excedentes e especiais</li>
+        </ul>
+      </section>
+
+      <section id="segmentos" class="reveal">
+        <div class="section-head">
+          <h2>Segmentos de atuacao</h2>
+          <div class="filters" role="group" aria-label="Filtrar segmentos">
+            <button class="filter is-active" data-filter="all">Todos</button>
+            <button class="filter" data-filter="maquinas">Maquinas</button>
+            <button class="filter" data-filter="nautico">Nautico</button>
+            <button class="filter" data-filter="especial">Especiais</button>
+          </div>
+        </div>
+
+        <div class="cards" id="cardsGrid">
+          <article class="card" data-type="maquinas especial">
+            <h3>Transporte em prancha baixa</h3>
+            <p>
+              Maquinas pesadas, equipamentos fora de padrao e cargas indivisiveis com foco em estabilidade.
+            </p>
+            <small>Escavadeiras, tratores, retroescavadeiras e rolos compactadores.</small>
+          </article>
+
+          <article class="card" data-type="nautico especial">
+            <h3>Transporte nautico</h3>
+            <p>Lanchas, jetski e barcos de medio porte com amarracao tecnica e protecao contra avarias.</p>
+            <small>Conhecimento de rampas, marinas e pontos de apoio.</small>
+          </article>
+
+          <article class="card" data-type="especial">
+            <h3>Cargas indivisiveis</h3>
+            <p>Equipamentos industriais, transformadores e estruturas metalicas de grande porte.</p>
+            <small>Planejamento de rota, AET e batedores quando necessario.</small>
+          </article>
+
+          <article class="card" data-type="maquinas">
+            <h3>Linha amarela</h3>
+            <p>Escavadeiras hidraulicas, motoniveladoras, tratores de esteira e retroescavadeiras.</p>
+            <small>Atendimento para construtoras, terraplanagem e locadoras.</small>
+          </article>
+
+          <article class="card" data-type="maquinas">
+            <h3>Plataformas elevatorias</h3>
+            <p>Tesoura, articuladas e telescopicas para obras, manutencao industrial e eventos.</p>
+            <small>Alta demanda e resposta rapida para nao parar operacoes.</small>
+          </article>
+
+          <article class="card" data-type="especial">
+            <h3>Cargas de peso especial</h3>
+            <p>Operacoes acima do padrao com distribuicao de carga por eixo e configuracao adequada.</p>
+            <small>Aplicacao com bitruck, trucado e prancha rebaixada.</small>
+          </article>
+        </div>
+      </section>
+
+      <section id="frota" class="split reveal">
+        <div>
+          <h2>Frota ideal para carga tecnica</h2>
+          <p>
+            Combinacao de versatilidade e capacidade para operacoes urbanas, industriais e rodoviarias.
+          </p>
+        </div>
+
+        <ul>
+          <li><strong>Bitruck:</strong> mais capacidade, estabilidade e desempenho em peso elevado.</li>
+          <li><strong>Trucado:</strong> versatilidade para cargas medias e operacoes de giro rapido.</li>
+          <li><strong>Prancha baixa/rebaixada:</strong> ativo principal para maquinas fora de padrao.</li>
+        </ul>
+      </section>
+
+      <section id="diferencial" class="reveal">
+        <h2>Diferenciais competitivos</h2>
+        <div class="highlight-grid">
+          <article>
+            <h3>Especializacao real</h3>
+            <p>Foco em cargas dificeis com menor concorrencia e maior valor agregado.</p>
+          </article>
+          <article>
+            <h3>Resposta rapida</h3>
+            <p>Operacao pronta para atender urgencias de obra e manutencao.</p>
+          </article>
+          <article>
+            <h3>Documentacao tecnica</h3>
+            <p>Suporte em AET, DER e DNIT para reduzir risco de parada.</p>
+          </article>
+          <article>
+            <h3>Relacao de longo prazo</h3>
+            <p>Direcionamento para contratos fixos com locadoras e construtoras.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="rotas" class="reveal">
+        <h2>Rotas estrategicas em Pernambuco e regiao</h2>
+        <div class="routes-layout">
+          <div class="routes">
+            <p><strong>Recife -> Suape:</strong> corredor de alta demanda para industria e porto.</p>
+            <p><strong>Recife -> Caruaru / Petrolina:</strong> operacao de interior com recorrencia.</p>
+            <p><strong>Recife -> Joao Pessoa / Natal:</strong> expansao regional com margem saudavel.</p>
+            <p><strong>Litoral nordestino:</strong> transporte nautico para marinas e estaleiros.</p>
+          </div>
+
+          <figure class="brazil-map" aria-label="Mapa do Brasil com logo da Time Assist">
+            <img src="img/logo.png" alt="Logo Time Assist no mapa do Brasil" />
+          </figure>
+        </div>
+      </section>
+
+      <section class="warning reveal">
+        <h2>Erros que evitamos na operacao</h2>
+        <ul>
+          <li>Nao focar em carga comum de baixo valor</li>
+          <li>Nao rodar sem taxa de mobilizacao</li>
+          <li>Nao aceitar planejamento que gere retorno vazio recorrente</li>
+          <li>Nao ignorar custo de desgaste da prancha</li>
+        </ul>
+      </section>
+
+      <section id="galeria" class="gallery reveal">
+        <div class="section-head">
+          <h2>Operacoes realizadas</h2>
+          <div class="gallery-tabs" role="tablist" aria-label="Selecionar tipo de galeria">
+            <button class="gallery-tab is-active" data-gallery-tab="fotos" role="tab" aria-selected="true">
+              Fotos
+            </button>
+            <button class="gallery-tab" data-gallery-tab="videos" role="tab" aria-selected="false">
+              Videos
+            </button>
+          </div>
+        </div>
+
+        <div class="gallery-panel is-active" data-gallery-panel="fotos" role="tabpanel">
+          <div class="gallery-grid">
+            <figure class="gallery-item"><img src="img/WhatsApp Image 2025-06-11 at 09.30.46.jpeg" alt="Operacao realizada pela Time Assist" loading="lazy" /></figure>
+            <figure class="gallery-item"><img src="img/WhatsApp Image 2025-09-16 at 16.51.50 (1).jpeg" alt="Carga especial transportada" loading="lazy" /></figure>
+            <figure class="gallery-item"><img src="img/WhatsApp Image 2025-09-16 at 17.02.43 (1).jpeg" alt="Transporte tecnico em campo" loading="lazy" /></figure>
+            <figure class="gallery-item"><img src="img/WhatsApp Image 2025-09-17 at 15.55.08 (1).jpeg" alt="Movimentacao de equipamento pesado" loading="lazy" /></figure>
+            <figure class="gallery-item"><img src="img/WhatsApp Image 2025-09-22 at 12.21.43 (1).jpg.jpeg" alt="Entrega de equipamento em operacao" loading="lazy" /></figure>
+            <figure class="gallery-item"><img src="img/WhatsApp Image 2025-09-22 at 12.21.43.jpeg" alt="Operacao logistica com prancha" loading="lazy" /></figure>
+            <figure class="gallery-item"><img src="img/WhatsApp Image 2025-09-22 at 14.23.27 (1).jpeg" alt="Transporte de carga indivisivel" loading="lazy" /></figure>
+            <figure class="gallery-item"><img src="img/WhatsApp Image 2025-09-22 at 14.23.27.jpeg" alt="Operacao de transporte especial" loading="lazy" /></figure>
+            <figure class="gallery-item"><img src="img/WhatsApp Image 2026-04-06 at 10.08.15 (1).jpeg" alt="Equipe e equipamento em operacao" loading="lazy" /></figure>
+            <figure class="gallery-item"><img src="img/WhatsApp Image 2026-04-06 at 10.08.15 (2).jpeg" alt="Carga tecnica em deslocamento" loading="lazy" /></figure>
+            <figure class="gallery-item"><img src="img/WhatsApp Image 2026-04-06 at 10.08.15 (3).jpeg" alt="Operacao com maquina pesada" loading="lazy" /></figure>
+            <figure class="gallery-item"><img src="img/WhatsApp Image 2026-04-06 at 10.08.15.jpeg" alt="Transporte especializado realizado" loading="lazy" /></figure>
+            <figure class="gallery-item"><img src="img/WhatsApp Image 2026-04-06 at 11.11.04 (1).jpeg" alt="Registro de atendimento em rota" loading="lazy" /></figure>
+            <figure class="gallery-item"><img src="img/WhatsApp Image 2026-04-06 at 11.11.04.jpeg" alt="Operacao concluida pela Time Assist" loading="lazy" /></figure>
+          </div>
+        </div>
+
+        <div class="gallery-panel" data-gallery-panel="videos" role="tabpanel" hidden>
+          <div class="video-grid">
+            <figure class="video-item">
+              <video controls preload="metadata" src="img/WhatsApp Video 2026-04-06 at 10.08.15.mp4"></video>
+              <figcaption>Operacao em video 1</figcaption>
+            </figure>
+            <figure class="video-item">
+              <video controls preload="metadata" src="img/WhatsApp Video 2026-04-06 at 10.08.15 (1).mp4"></video>
+              <figcaption>Operacao em video 2</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato" class="contact reveal">
+        <h2>Fale com a Time Assist</h2>
+        <p>Atendimento comercial para operacao pontual ou contrato fixo.</p>
+        <div class="contact-actions">
+          <a href="https://wa.me/5581998480023" target="_blank" rel="noopener noreferrer" class="btn btn-primary whatsapp-link" aria-label="Contato via WhatsApp">
+            <img src="img/whrsap.png" alt="" class="whatsapp-icon" />
+            <span>(81) 9 9848-0023</span>
+          </a>
+          <a href="tel:+558137884161" class="btn btn-ghost">Central: (81) 3788-4161</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Time Assist Transportes - Cargas Especiais e Pesadas</p>
+    </footer>
+
+    <div class="lightbox" id="lightbox" hidden aria-hidden="true" role="dialog" aria-label="Visualizacao ampliada da imagem">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Fechar imagem ampliada">Fechar</button>
+      <img id="lightboxImage" src="" alt="" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
